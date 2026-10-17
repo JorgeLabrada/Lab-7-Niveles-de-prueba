@@ -9,7 +9,7 @@ class Book:
     def borrow(self):
         if self.borrowed:
             raise ValueError("The book is already borrowed")
-        self.borrowed = True
+        self.borrowed = True    
 
     def return_book(self):
         if not self.borrowed:
